@@ -64,7 +64,7 @@
             // reliable way to ensure the video stops playing in IE
             $("#trailer-video-container").empty();
         });
-        // Start playing the Video whenever the trailer modal is opened
+        // Start playing the Video whenever the trailer modal is Opened
         $(document).on('click', '.movie-tile', function (event) {
             var trailerYouTubeId = $(this).attr('data-trailer-youtube-id')
             var sourceUrl = 'http://www.youtube.com/embed/' + trailerYouTubeId + '?autoplay=1&html5=1';
